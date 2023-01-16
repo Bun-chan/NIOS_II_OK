@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 		(text "reset_n" (rect 213 227 468 464)(font "Arial" (color 0 0 0)))
 		(text "reset_0" (rect 164 243 370 499)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "reset_n" (rect 213 267 468 544)(font "Arial" (color 0 0 0)))
-		(text " core " (rect 458 288 952 586)(font "Arial" ))
+		(text " system " (rect 445 288 938 586)(font "Arial" ))
 		(line (pt 208 32)(pt 272 32)(line_width 1))
 		(line (pt 272 32)(pt 272 288)(line_width 1))
 		(line (pt 208 288)(pt 272 288)(line_width 1))

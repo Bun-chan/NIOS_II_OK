@@ -135,5 +135,14 @@ module DE10_LITE_Golden_Top(
 //=======================================================
 
 
+core u3 (
+		.clk_clk                          (MAX10_CLK1_50),                          //                       clk.clk
+		.clk_0_clk                        (ADC_CLK_10),                        //                     clk_0.clk
+		.pio_0_external_connection_export (LEDR), // pio_0_external_connection.export
+		.pio_1_external_connection_export (SW), // pio_1_external_connection.export
+		.reset_reset_n                    (ARDUINO_RESET_N),                    //                     reset.reset_n
+		.reset_0_reset_n                  (ARDUINO_RESET_N)                   //                   reset_0.reset_n
+	);
+
 
 endmodule
